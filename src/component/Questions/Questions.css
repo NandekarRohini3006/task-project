@@ -1,0 +1,11 @@
+.que{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1 solid rgb(92, 39, 192);
+}
+.Q{
+    background-color:rgb(246, 246, 246);
+    ;
+}
