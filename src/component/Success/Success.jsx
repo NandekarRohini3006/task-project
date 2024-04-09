@@ -1,4 +1,6 @@
 import "./Success.css";
+import Carousel from "react-bootstrap/Carousel";
+
 const Success = () => {
   return (
     <>
@@ -6,62 +8,50 @@ const Success = () => {
         <h1>Success Stories</h1>
       </div>
       <div className="row  d-flex justify-content-center ">
-        <div
-          id="carouselExampleSlidesOnly"
-          className="carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <div className="cards-wrapper col-sm-12 col-md-4 col-lg-4 col-12">
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s1.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+        <Carousel>
+          <Carousel.Item>
+            <div className="row  d-flex justify-content-center">
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className="card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s1.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
                     </p>
                   </div>
                 </div>
-                <div className="card-s">
-                  <img
-                    src="./images/s2.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+              </div>
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className=" card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s2.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
                     </p>
                   </div>
                 </div>
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s3.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+              </div>
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className="card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s3.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
@@ -70,56 +60,50 @@ const Success = () => {
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div className="cards-wrapper col-sm-12 col-md-4 col-lg-4 col-12">
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s1.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="row m-2 d-flex justify-content-space-around">
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className=" card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s1.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
                     </p>
                   </div>
                 </div>
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s2.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+              </div>
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className="card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s2.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
                     </p>
                   </div>
                 </div>
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s3.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+              </div>
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className="card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s3.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
@@ -128,56 +112,51 @@ const Success = () => {
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div className="cards-wrapper col-sm-12 col-md-4 col-lg-4 col-12">
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s1.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="row m-2 d-flex justify-content-space-around">
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className=" card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s1.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
                     </p>
                   </div>
                 </div>
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s2.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+              </div>
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className=" card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s2.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
                     </p>
                   </div>
                 </div>
-                <div className="card-s col-sm-12 col-md-4 col-lg-4 col-12">
-                  <img
-                    src="./images/s3.png.png"
-                    className="card-img-top"
-                    alt="..."
-                  />
+              </div>
+              <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div className=" card">
                   <div className="card-body">
-                    <p className="card-title text-dark fw-bold">
+                    <img src="./images/s3.png.png" />
+                    <p className="text-dark fw-bold">
                       Rework has been a great way to make the hiring process
                       easier and faster.
                     </p>
-                    <p className="card-text text-dark">
+                    <p>
                       “We've been able to save money and time, and the
                       recruiters have been able to find the best employers
                       leads. Highly recommend! “
@@ -186,8 +165,8 @@ const Success = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </Carousel.Item>
+        </Carousel>
       </div>
     </>
   );

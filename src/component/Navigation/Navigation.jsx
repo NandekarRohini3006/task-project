@@ -20,12 +20,17 @@ const Navigation = () => {
                 <span className="empl">For Employers </span>
               </Nav.Link>
               <Nav.Link href="#">About Us</Nav.Link>
-              <button className="btn1 btn me-2 px-4 nav-button profile-btn mt-2 ">
-                Login
-              </button>
-              <button className="btn2 btn nav-button px-2 profile-btn sm-me-0 me-2 mt-2 ">
-                Get Started
-              </button>
+              <Nav.Link href="#">
+                {" "}
+                <button className="btn1 btn me-2 px-4 nav-button profile-btn mt-2 ">
+                  Login
+                </button>
+              </Nav.Link>
+              <Nav.Link href="#">
+                <button className="btn2 btn nav-button px-2 profile-btn sm-me-0 me-2 mt-2 ">
+                  Get Started
+                </button>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -72,7 +72,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row m-2 d-flex justify-content-space-around">
           <div className="col-sm-12 col-md-4 col-lg-4 col-12">
             <div className="tc card">
               <div className="card-body">
